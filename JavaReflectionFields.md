@@ -1,11 +1,11 @@
 ---
-title: Java Relection
+title: Java反射之变量
 date: 2016-05-12 00:52:55
 tags:
     - Java
 ---
 ### Java Reflection Fields
-java 反射机制学习笔记,原文地址[Java Reflection Fields](http://tutorials.jenkov.com/java-reflection/fields.html)
+原文地址[Java Reflection Fields](http://tutorials.jenkov.com/java-reflection/fields.html)
 
 #### Obtaining Field Objects
 

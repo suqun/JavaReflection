@@ -1,11 +1,10 @@
 ---
-title: Java Relection
+title: Java反射之私有变量和私有方法
 date: 2016-05-14 00:52:55
 tags:
     - Java
 ---
-### Java Reflection Private Fields and Methods
-java 反射机制学习笔记,原文地址[Java Reflection Methods](http://tutorials.jenkov.com/java-reflection/private-fields-and-methods.html)
+原文地址[Java Reflection Methods](http://tutorials.jenkov.com/java-reflection/private-fields-and-methods.html)
 
 通常情况下，从对象外部访问私有变量和私有方法是不被允许的，但是通过反射可以很容易获取私有变量和私有方法，在单元测试的时候很有用。
 

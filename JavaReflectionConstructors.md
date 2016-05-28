@@ -1,11 +1,10 @@
 ---
-title: Java Relection Constructors
+title: Java反射之构造函数
 date: 2016-05-11 00:52:55
 tags:
     - Java
 ---
-### Java Reflection Constructors
-java 反射机制学习笔记,原文地址[Java Reflection Constructors](http://tutorials.jenkov.com/java-reflection/constructors.html)
+原文地址[Java Reflection Constructors](http://tutorials.jenkov.com/java-reflection/constructors.html)
 
 #### 获取构造函数的对象
 

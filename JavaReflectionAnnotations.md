@@ -1,19 +1,18 @@
 ---
-title: Java Relection
-date: 2016-05-28 00:52:55
+title: Java反射之注解
+date: 2016-05-18 00:52:55
 tags:
     - Java
 ---
-### Java Reflection Annotations
 原文地址[Java Reflection Annotations](http://tutorials.jenkov.com/java-reflection/annotations.html)
 
 在运行时状态下，你可以通过反射获取java对象上的注解。
 
-##### What are Java Annotations?
+#### What are Java Annotations?
 
 注解是Java5增加的功能。注解是一种注释或者是元数据可以直接插入到Java代码中。在编译时，通过预编译工具处理；或者在运行时，通过java反射处理。下面是个注解的例子：
 
-```
+```java
     @MyAnnotation(name="someName",  value = "Hello World")
     public class TheClass {
 
@@ -22,7 +21,7 @@ tags:
 
 类TheClass的上面有个`@MyAnnotation`的注解。注解的定义类似接口定义，下面是注解定义的例子：
 
-```
+```java
     @Retention(RetentionPolicy.RUNTIME)
     @Target(ElementType.TYPE)
 
@@ -40,7 +39,7 @@ tags:
 
 `@Target(ElementType.TYPE)`意味着注解只能用在Types上（比如类和接口）。你也可以指定为`METHOD`或者是`FIELD`，或者是不使用Target这个指令，这样你就可以在类，方法，变量上使用了。
 
-##### Class Annotations
+#### Class Annotations
 
 你可以在运行期访问类，方法，变量的注解。下面是类注解的例子：
 

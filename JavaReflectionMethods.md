@@ -1,11 +1,10 @@
 ---
-title: Java Relection
+title: Java反射之方法
 date: 2016-05-13 00:52:55
 tags:
     - Java
 ---
-### Java Reflection Methods
-java 反射机制学习笔记,原文地址[Java Reflection Methods](http://tutorials.jenkov.com/java-reflection/methods.html)
+原文地址[Java Reflection Methods](http://tutorials.jenkov.com/java-reflection/methods.html)
 
 ##### Obtaining Method Objects
 

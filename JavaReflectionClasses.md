@@ -1,11 +1,10 @@
 ---
-title: Java Relection
+title: Java反射之对象
 date: 2016-05-09 00:52:55
 tags:
     - Java
 ---
-### Java Reflection Class对象
-java 反射机制学习笔记,原文地址[Java Reflection](http://tutorials.jenkov.com/java-reflection/classes.html)
+原文地址[Java Reflection Classes](http://tutorials.jenkov.com/java-reflection/classes.html)
     
 ##### 获取class对象
 Java中的所有类型包括基本类型(int, long, float等等)，即使是数组都有与之关联的Class类的对象。
